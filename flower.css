@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-bg: linear-gradient(to top,#010329,#000005);
+    --color-glass:linear-gradient(to left,#142544,#1a9092);
+    --color-water:linear-gradient(to left,#142544,#1b6d6e);
+}
+
+body{
+    background-color: #FFF5E4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* Change the direction to column */
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start of the container */
+    overflow: hidden;
+	color: #FF9494;
+	font-family: courier;
+}
+
+#thankyou {
+    width: 100%; /* Ensure it spans the full width */
+    text-align: center; /* Keep the text centered */
+    margin-top: 20px; /* Add some space at the top */
+    z-index: 1000; /* Ensure it's above other elements if needed */
+    position: relative; /* Adjust based on layout needs */
+
+	font-size: 50px;
+}
+
+.bearkiss {
+    display: block;
+    margin: 100px auto; /* This will center the image horizontally */
+}
